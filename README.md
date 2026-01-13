@@ -73,23 +73,26 @@ Administrador
 
 ## Screenshots
 
+**Página Inicial após Login**
+<img width="1920" height="936" alt="image" src="https://github.com/user-attachments/assets/278ff0d4-c2b5-4a0c-9f0e-836837eff00e" />
+
 **Tela de listagem de contatos**  
-<img width="1920" height="936" alt="image" src="https://github.com/user-attachments/assets/4b972d44-f988-4217-b3ce-0e93bfe823cc" />
+<img width="1920" height="934" alt="image" src="https://github.com/user-attachments/assets/b4a5143f-6840-4ae4-a6ab-7e10e69a3a09" />
 
 **Tela de criar contato**  
-<img width="1920" height="935" alt="image" src="https://github.com/user-attachments/assets/00b3569d-7cfc-4d0e-a29e-192331663e8c" />
+<img width="1920" height="935" alt="image" src="https://github.com/user-attachments/assets/f1883d93-0d7f-4f24-a11c-bc9886c209a4" />
 
 **Tela de editar contato**  
-<img width="1920" height="935" alt="image" src="https://github.com/user-attachments/assets/a771eac1-1c71-4bdc-9069-f7b49a90fd9e" />
+<img width="1920" height="933" alt="image" src="https://github.com/user-attachments/assets/e22f0f8b-d7b3-40ff-aed8-70c4e2baf87f" />
 
 **Tela de confirmação de exclusão**  
-<img width="1920" height="935" alt="image" src="https://github.com/user-attachments/assets/c33ebede-3dea-470a-8eaa-47ee3025843f" />
+<img width="1920" height="936" alt="image" src="https://github.com/user-attachments/assets/d1f3ad20-208a-4dcb-a66f-14ac751db3b0" />
 
 **Tela de listagem de usuários**
-<img width="1920" height="934" alt="image" src="https://github.com/user-attachments/assets/51bd6474-4bd8-431b-b323-e7db0f01f148" />
+<img width="1920" height="934" alt="image" src="https://github.com/user-attachments/assets/c4136b4b-0fe5-4fda-adc4-fbf2533d5442" />
 
 **Tela de criar usuário**
-<img width="1918" height="936" alt="image" src="https://github.com/user-attachments/assets/a39605d2-820d-4524-ad6c-1e706fad8b5f" />
+<img width="1920" height="934" alt="image" src="https://github.com/user-attachments/assets/a150b73b-b440-4750-b91c-8c15b5e1ac9c" />
 
 ---
 
