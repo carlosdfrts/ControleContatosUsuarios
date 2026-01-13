@@ -1,77 +1,54 @@
 # Cadastro de Contatos MVC
 
-Sistema de **CRUD de contatos com autenticação e controle de usuários**, desenvolvido em **ASP.NET Core MVC**, utilizando **Entity Framework Core** e **SQL Server**.
+Sistema completo de CRUD de contatos com autenticação, controle de usuários e permissões, desenvolvido em **ASP.NET Core MVC**, utilizando **Entity Framework Core** e **SQL Server**.
 
-O projeto permite o gerenciamento de contatos e usuários, com sistema de login, validação de permissões com filtragem e diferenciação entre usuário comum e administrador.
+O projeto implementa um fluxo completo de cadastro e gerenciamento, incluindo autenticação personalizada, diferenciação entre perfis (Usuário / Admin) e interface responsiva utilizando Bootstrap.
 
 ---
 
-## Tecnologias utilizadas
+## Tecnologias Utilizadas
 
-- ASP.NET Core MVC  
-- C#  
-- Entity Framework Core  
-- SQL Server  
-- Bootstrap 5  
+- **ASP.NET Core MVC**
+- **C# / .NET**
+- **Entity Framework Core**
+- **SQL Server**
+- **Bootstrap 5**
+- **JavaScript (DataTables)**
 
 ---
 
 ## Funcionalidades
 
-- Criar contatos e usuários
-- Editar contatos e usuários
-- Excluir contatos e usuários
-- Listar todos os contatos e usuários
+### Autenticação e Usuários
+- Login com validação no banco de dados  
+- Perfis com permissões:
+  - **Usuário:** acesso às funcionalidades básicas
+  - **Administrador:** acesso total ao sistema
+- Cadastro, edição e exclusão de usuários  
+- Senhas armazenadas no banco
+
+### Contatos
+- Criar novos contatos  
+- Editar contatos  
+- Excluir contatos  
+- Listagem de todos os contatos  
 - Validação de campos obrigatórios  
-- Confirmação de exclusão
-- Identity (login e autenticação personalizada)
-  
----
-
-## Sistema de Usuários
-
-O sistema conta com autenticação baseada em banco de dados:
-
-- Tela de login
-- Validação de usuário e senha
-- Senhas armazenadas no banco de dados
-- Controle de acesso por tipo de usuário
-
-## Tipos de usuário
-Usuário padrão
-
-- Pode acessar o sistema
-- Pode visualizar e gerenciar contatos (conforme regra definida)
-
-Administrador
-
-- Pode gerenciar contatos
-- Pode criar, editar e excluir usuários
-- Possui acesso total ao sistema
-
-## Funcionalidades
-
-## Contatos
-
-- Criar contatos
-- Editar contatos
-- Excluir contatos
-- Listar todos os contatos
-- Validação de campos obrigatórios
-- Confirmação de exclusão
-
-## Usuários
-
-- Cadastro de usuários
-- Edição de usuários
-- Exclusão de usuários
-- Listagem de usuários
-- Login com validação no banco de dados
-- Controle de acesso por perfil (Usuário / Admin)
+- Tela de confirmação de exclusão  
+- Interface amigável + DataTable  
 
 ---
 
-## Screenshots
+## Arquitetura do Projeto
+- Padrão **MVC**
+- Repository Pattern  
+- Migrations do EF Core
+- Camadas separadas:
+  - Controllers  
+  - Models  
+  - Repositórios  
+  - Views  
+
+---
 
 **Página Inicial após Login**
 <img width="1920" height="936" alt="image" src="https://github.com/user-attachments/assets/278ff0d4-c2b5-4a0c-9f0e-836837eff00e" />
@@ -96,9 +73,9 @@ Administrador
 
 ---
 
-## Como rodar o projeto
+## Como Rodar o Projeto
 
-1. Clone o repositório:
-
+### 1. Clone o repositório
 ```bash
 git clone https://github.com/carlosdfrts/ControleContatosUsuarios
+
