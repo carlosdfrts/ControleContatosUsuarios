@@ -1,0 +1,27 @@
+using System.Diagnostics;
+using ControleContatos.Filters;
+using ControleContatos.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace ControleContatos.Controllers
+{
+    public class HomeController : Controller
+    {
+        [PaginaUsuarioLogado]
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+}

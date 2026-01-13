@@ -1,0 +1,37 @@
+﻿@model UsuarioModel
+
+<a class="navbar-brand" asp-controller="Home" asp-action="Index">
+    Olá, @Model.Nome
+</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarMenu" aria-controls="navbarMenu"
+        aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarMenu">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Home" asp-action="Index">Início</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Contato" asp-action="Index">Contatos</a>
+        </li>
+        
+        @if(Model.Perfil == ControleContatos.Enums.PerfilEnum.Admin)
+        {
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Usuario" asp-action="Index">Usuários</a>
+            </li>
+        }
+
+    </ul>
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link text-danger" asp-controller="Login" asp-action="Sair">
+                Sair
+            </a>
+        </li>
+    </ul>
+</div>
